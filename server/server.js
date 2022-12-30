@@ -47,4 +47,4 @@ app.post('/', async (req,res) => {
     }
 })
 
-app.listen(5000, () => console.log('Server is running!'));
+app.listen(5000, () => console.log('Server is running on https://openai-api-app-00nk.onrender.com'));

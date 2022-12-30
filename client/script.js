@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv); // three dots while loading
 
   // fetch data from server
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://openai-api-app-00nk.onrender.com', {
     method: 'POST',
     headers: {
       'Content-type': 'application/json'
